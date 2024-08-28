@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var cat: Int?// declaring an optional(could be nil)
     var horse: Double!// declaring a non optional(cant be nil)
     var ant: String = ""// declaring a variable(must initialize in init)
+    var git = true
     
     @IBOutlet weak var textField1: UITextField!
     
