@@ -20,6 +20,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var ant: String = ""// declaring a variable(must initialize in init)
     var git = true
     
+    var home = false
+    
     @IBOutlet weak var textField1: UITextField!
     
     
